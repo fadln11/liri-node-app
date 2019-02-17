@@ -84,7 +84,7 @@ Commands Preview:
 LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 This is what random.txt file looks like.
 ```
-rever:~/NW/git-nw/liri-node-app (master)$ echo $(cat random.txt)
+$ echo $(cat random.txt)
 spotify-this-song,"I Want it That Way"
 ```
 It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
